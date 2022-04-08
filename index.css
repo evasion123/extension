@@ -28,6 +28,16 @@ button {
 
   box-sizing: border-box;
 }
+#clear-btn:hover {
+  color: #5f9341;
+  background-color: #d5ffb7;
+  transition: 0.3s;
+}
+#input-btn:hover {
+  color: #f5ffee;
+  background-color: #42682d;
+  transition: 0.3s;
+}
 #empty-error {
   color: red;
   font-size: 10px;

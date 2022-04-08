@@ -20,12 +20,9 @@ clearBtn.addEventListener("click", function () {
 });
 
 clearBtn.addEventListener("dblclick", function () {
-  let proceed = confirm("Are you sure you want to clear the leads");
-  if (proceed) {
-    localStorage.clear();
-    myLeads = [];
-    renderLeads();
-  }
+  localStorage.clear();
+  myLeads = [];
+  renderLeads();
 });
 
 inputBtn.addEventListener("click", function () {
