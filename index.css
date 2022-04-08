@@ -38,6 +38,11 @@ button {
   background-color: #42682d;
   transition: 0.3s;
 }
+#tab-btn:hover {
+  color: #f5ffee;
+  background-color: #42682d;
+  transition: 0.3s;
+}
 #empty-error {
   color: red;
   font-size: 10px;
